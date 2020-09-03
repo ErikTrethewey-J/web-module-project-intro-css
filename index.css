@@ -1,11 +1,11 @@
- *{
+ /**{
     box-sizing:border-box;
     padding:0;
     margin:0;
     max-width:100%;
     border:1px solid grey;
   } 
-
+*/
   html {
       
       font-size: 1.5rem;
@@ -33,6 +33,7 @@
   }
   
  nav a {
+    font-size: 18px;;
     font-family: 'Roboto Mono', monospace;
     bottom: 50px;
     color: white;
@@ -96,15 +97,18 @@
 }
 
 .g {
+    color: white;
+    font-size: 20px;
     font-family: 'Roboto Mono', monospace;
-    word-spacing: 11px;
+    word-spacing: 3px;
     margin: 0px 400px 0px 400px;
     text-align: center;
     background: #DDB9A3;
 }
 .i {
+    font-size: 20px;
     font-family: 'Roboto Mono', monospace;
-    word-spacing: 11px;
+    word-spacing: 6px;
 }
 
 #fire {
@@ -125,13 +129,19 @@
 }
 
 .k {
-    background-image:url('footer_img.jpg') ;
-    background-attachment: fixed;
-    background-position-y: unset;
-    height: 800px;
-    width: 100%;
+    background-image:url("assets/footer_img.jpg");
+    width:100%;
+    background-size:cover;/*fit inside the element, covers whole space */
+    height:40vh;
+    margin:60px 0 0 0 ;
 }
 .L {
-
+    background-color: #F9E7DC;
     margin: -500px 1000px -1000px 1000pz;
+}
+.m {
+    padding: 10px 25px 5px 20px;
+}
+.n {
+    padding: 10px 30px 20px 30px;
 }
