@@ -7,6 +7,7 @@
   } 
 
   html {
+      
       font-size: 1.6rem;
   }
 
@@ -25,11 +26,11 @@
   nav {
     display: inline-block;
     width:100%;
-    margin:0 auto;
     text-align: center;
   }
   
  nav a {
+    bottom: 50px;
     color: white;
     margin: 5%;
     padding: .5%; 
@@ -60,25 +61,40 @@
 
 
 #header-img {
-
-    margin: 10px 300px 100px 300px;
-    height: 300px;
-    width: 300px;
+    background-attachment: fixed;
+    margin: 10px 300px 100px 450px;
+    height: 250px;
+    width: 250px;
     display: inline-bock;
     position: absolute;
     top: 100;
     border-radius: 50%;
 }
 
+.e {
+
+}
+
 .h {
-    display: relative;
-    width: 100%;
+    word-spacing: 11px;
+    text-align: center;
+    margin:0px 0px 50px 800px;
+    width: 32%;
     display: inline-block;
 
 }
 
  h1 { 
-    margin: 100px 50px 100px 50px;
+    word-spacing: 11px;
+    width: 100%;
+    padding: 10px;
+    margin: 50px 50px 50px 0px;
     display: inline-block;
-    top: 20px;
+}
+
+.g {
+    word-spacing: 11px;
+    margin: 0px 400px 0px 400px;
+    text-align: center;
+    background: #DDB9A3;
 }
