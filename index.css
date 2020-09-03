@@ -8,12 +8,15 @@
 
   html {
       
-      font-size: 1.6rem;
+      font-size: 1.5rem;
   }
 
   body {
       line-height: 1;
      
+  }
+  p {
+      text-align: center;
   }
 
 /*Navigation Section*/
@@ -30,13 +33,16 @@
   }
   
  nav a {
+    font-family: 'Roboto Mono', monospace;
     bottom: 50px;
     color: white;
     margin: 5%;
-    padding: .5%; 
+    padding: .7%; 
   }
   
  .a {
+    word-spacing: 5px;
+    font-family: 'Roboto Mono', monospace;
     display: inline-block;
     width: 150px; 
     border-radius: 15px;
@@ -44,6 +50,7 @@
   }
 
   .b {
+    font-family: 'Roboto Mono', monospace;
     display: inline-block;
     width: 150px;
     border-radius: 15px;
@@ -51,6 +58,7 @@
   }
 
   .c {
+    font-family: 'Roboto Mono', monospace;
     display: inline-block;
     width: 150px;
     border-radius: 15px;
@@ -58,43 +66,72 @@
 }
 /*End of Navigation Section*/
 
-
-
 #header-img {
     background-attachment: fixed;
-    margin: 10px 300px 100px 450px;
-    height: 250px;
-    width: 250px;
+    margin: 0px 300px 100px 450px;
+    height: 300px;
+    width: 300px;
     display: inline-bock;
     position: absolute;
     top: 100;
     border-radius: 50%;
 }
 
-.e {
-
-}
-
 .h {
-    word-spacing: 11px;
+    font-family: 'Roboto Mono', monospace;
+    word-spacing: 6px;
     text-align: center;
     margin:0px 0px 50px 800px;
     width: 32%;
     display: inline-block;
-
 }
 
  h1 { 
+    font-size: 35px;
+    font-family: 'Chelsea Market', cursive;
     word-spacing: 11px;
-    width: 100%;
-    padding: 10px;
-    margin: 50px 50px 50px 0px;
+    padding:50px 50px 50px 50px;
+    margin:40px 40px 40px 40px;
     display: inline-block;
 }
 
 .g {
+    font-family: 'Roboto Mono', monospace;
     word-spacing: 11px;
     margin: 0px 400px 0px 400px;
     text-align: center;
     background: #DDB9A3;
+}
+.i {
+    font-family: 'Roboto Mono', monospace;
+    word-spacing: 11px;
+}
+
+#fire {
+    margin: 0px 500px 0px 850px;
+    width: 200px;
+    height: 200px;
+}
+
+.amb { 
+    margin: 0px 500px 0px 850px;
+    width: 200px;
+    height: 200px;
+}
+
+.j {
+    font-family: 'Roboto Mono', monospace;
+    word-spacing: 11px;
+}
+
+.k {
+    background-image:url('footer_img.jpg') ;
+    background-attachment: fixed;
+    background-position-y: unset;
+    height: 800px;
+    width: 100%;
+}
+.L {
+
+    margin: -500px 1000px -1000px 1000pz;
 }
