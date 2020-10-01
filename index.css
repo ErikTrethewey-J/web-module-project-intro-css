@@ -32,7 +32,7 @@ html {
   }
   
  nav a {
-    font-size: 18px;;
+    font-size: 1.4rem;
     font-family: 'Roboto Mono', monospace;
     bottom: 50px;
     color: white;
@@ -135,7 +135,7 @@ html {
     background-size:cover;/*fit inside the element, covers whole space */
     background-repeat: no-repeat;
     height:50vh;
-    margin:60px 0px 00px 0px ;
+    margin:60px 0px 0px 0px ;
 }
 .L {
     background-color: #F9E7DC;
